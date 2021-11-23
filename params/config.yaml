@@ -1,0 +1,14 @@
+dataset_name: "mnist_784"
+num_neurons_input_layer: 784
+num_neurons_second_layer: 500
+num_neurons_third_layer: 500
+num_neurons_output_layer: 10
+test_dataset_size: 0.25
+sgd_learning_rate: 0.01
+training_bartch_size: 128
+testing_batch_size: 128
+num_epochs: 250
+# regularization: "L2" # (1): L2,   (2): dropout,   (3): early_stopping
+hiden_layers_act_func: "sigmoid"
+output_layer_act_func: "softmax"
+loss_func: 'categorical_crossentropy'
